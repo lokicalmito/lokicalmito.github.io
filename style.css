@@ -13,3 +13,12 @@ body {
   color: black;
   font-family: "PoppinsRegular";
 }
+
+button {
+  font-size: larger;
+  text-transform: uppercase;
+  padding: 1rem;
+  border: 2px solid black;
+  background: transparent;
+  cursor: pointer;
+}
