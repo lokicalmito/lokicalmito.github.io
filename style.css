@@ -1,40 +1,36 @@
-:root {
-  --primaryColor: hsl(142, 62.4%, 50%);
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: flex-end;
-  /* justify-content: center; */
-  background-color: hsl(153, 11.1%, 7.2%);
-  color: var(--primaryColor);
-  font-family: "PoppinsRegular";
-  text-align: left;
-  padding: 3rem;
+  max-width: 700px;
+  margin: auto;
+  background-color: hsl(0, 0%, 3.5%);
+  color: hsl(0, 0%, 80%);
+  font-family: "sans-serif";
+  line-height: 1.6;
 }
 
-.links {
-  display: flex;
-  gap: 0.6rem;
+header,
+ul,
+article,
+footer {
+  padding: 0.8rem 0.6rem 0.8rem 1.8rem;
+  background-color: hsl(0, 0%, 8%);
+}
+
+header {
+  padding-top: 3rem;
+  word-break: break-all;
+}
+
+.languages {
+  color: white;
+  background-color: hsl(30, 100%, 35%);
 }
 
 a {
-  text-decoration: none;
-  padding: 0 0.4rem;
-  border-bottom: 2px solid transparent;
-  background: transparent;
-  cursor: pointer;
-  color: var(--primaryColor);
+  color: currentColor;
+  font-weight: bold;
+  text-decoration-thickness: 2px;
 }
 
-a:hover {
-  border-bottom: 2px solid currentColor;
+footer {
+  margin: 16px 0;
 }
