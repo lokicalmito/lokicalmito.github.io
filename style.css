@@ -25,6 +25,15 @@ header {
   background-color: hsl(30, 100%, 35%);
 }
 
+.art {
+  color: white;
+  background-color: hsl(210, 100%, 40%);
+}
+
+img {
+  width: 100%;
+}
+
 a {
   color: currentColor;
   font-weight: bold;
