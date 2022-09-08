@@ -3,7 +3,7 @@ body {
   margin: auto;
   background-color: hsl(0, 0%, 3.5%);
   color: hsl(0, 0%, 80%);
-  font-family: "sans-serif";
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
   line-height: 1.6;
 }
 
