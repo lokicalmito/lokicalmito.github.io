@@ -20,11 +20,23 @@ header {
   padding-top: 3rem;
 }
 
+a {
+  color: currentColor;
+  font-weight: bold;
+  text-decoration-thickness: 2px;
+}
+
+footer {
+  margin: 16px 0;
+}
+
+/* Soft Page */
 .languages {
   background-color: hsl(30, 100%, 35%);
   color: white;
 }
 
+/* Art Page */
 .art {
   background-color: hsl(210, 100%, 40%);
   color: white;
@@ -36,14 +48,4 @@ header {
 
 img {
   width: 100%;
-}
-
-a {
-  color: currentColor;
-  font-weight: bold;
-  text-decoration-thickness: 2px;
-}
-
-footer {
-  margin: 16px 0;
 }
