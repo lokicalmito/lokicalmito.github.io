@@ -1,18 +1,19 @@
 body {
-  max-width: 700px;
-  margin: auto;
   background-color: hsl(0, 0%, 3.5%);
   color: hsl(0, 0%, 80%);
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  font-size: 18px;
   line-height: 1.6;
+  max-width: 700px;
+  margin: auto;
 }
 
 header,
 ul,
 article,
 footer {
-  padding: 0.8rem 1.8rem 0.8rem 1.8rem;
   background-color: hsl(0, 0%, 8%);
+  padding: 0.8rem 1.8rem 0.8rem 1.8rem;
 }
 
 header {
@@ -20,13 +21,17 @@ header {
 }
 
 .languages {
-  color: white;
   background-color: hsl(30, 100%, 35%);
+  color: white;
 }
 
 .art {
-  color: white;
   background-color: hsl(210, 100%, 40%);
+  color: white;
+}
+
+#writing{
+  font-family: serif;
 }
 
 img {
