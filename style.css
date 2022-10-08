@@ -30,6 +30,10 @@ a {
   text-decoration-thickness: 2px;
 }
 
+details > summary{
+  cursor: pointer;
+}
+
 footer {
   margin: 16px 0;
 }
