@@ -8,16 +8,10 @@ body {
   margin: auto;
 }
 
-header,
-ul,
-article,
-footer {
-  background-color: hsl(0, 0%, 8%);
-  padding: 0.8rem 1.8rem 0.8rem 1.8rem;
+h1, h2, h3, h4, h5, h6{
+  color: hsl(0, 0%, 90%);
 }
 
-h1, h2, h3, h4, h5, h6{
-  color: hsl(0, 0%, 80%);
 }
 
 a {
@@ -28,26 +22,6 @@ a {
 
 details > summary{
   cursor: pointer;
-}
-
-footer {
-  margin: 16px 0;
-}
-
-/* Soft Page */
-.languages {
-  background-color: hsl(30, 100%, 35%);
-  color: white;
-}
-
-/* Art Page */
-.art {
-  background-color: hsl(210, 100%, 40%);
-  color: white;
-}
-
-#writing{
-  font-family: serif;
 }
 
 img {
